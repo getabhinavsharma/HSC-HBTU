@@ -1,0 +1,56 @@
+
+.back{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    background-position: center;
+}
+
+.DC{
+    background-image: linear-gradient(rgba(53, 53, 53, 0.5), rgba(53, 53, 53, 0.5)), url('./DC.jpg');
+}
+
+.GRUV{
+    background-image: linear-gradient(rgba(53, 53, 53, 0.5), rgba(53, 53, 53, 0.5)),url('./groove.jpg');
+}
+
+.OCTAVE{
+    background-image: linear-gradient(rgba(53, 53, 53, 0.5), rgba(53, 53, 53, 0.5)),url('./oct.png');
+}
+.KALAKASH{
+    background-image: linear-gradient(rgba(53, 53, 53, 0.5), rgba(53, 53, 53, 0.5)),url('./kala2.jpg');
+    background-position: center;
+    object-fit: contain;
+}
+
+@media screen and (min-width: 350px) {
+    .para {
+        font-size: 1.20rem;
+
+    }   
+
+    .cont{
+        font-size: 2.01rem;
+        bottom: -48px;
+    }
+    
+    .insta{
+        height: 32px;
+    }
+    
+}
+
+@media screen and (min-width: 400px) {
+    .para {
+        font-size: 1.55rem;
+    }    
+
+    .cont{
+        font-size: 3.35rem;
+        bottom: -68px;
+    }
+
+    .insta{
+        height: 55px;
+    }
+}
