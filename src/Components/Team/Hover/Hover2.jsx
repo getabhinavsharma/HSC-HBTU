@@ -13,12 +13,12 @@ const Hover = React.memo((props) => {
             <p>{props.name}</p>
             <p>{props.role}</p>
           </span>
-          <span className="cards--three__rect-2">
+          <span className="cards--three__rect-0">
             <span className="shadow-2"></span>
           </span>
           <span className="cards--three__circle"></span>
           <ul className="cards--three__list">
-      
+          <li><i className="fab fa-instagram"></i></li>
             <li><i className="fab fa-linkedin-in"></i></li>
           </ul>
         </div>
