@@ -21,12 +21,12 @@
     font-family: "Protest Revolution", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 50px;
+    font-size: 70px;
   }
   .team-section h2{
     position: sticky;
     top:10px;
-    font-size: 30px;
+    font-size: 50px;
     z-index: 5;
     border-color:black;
   }
