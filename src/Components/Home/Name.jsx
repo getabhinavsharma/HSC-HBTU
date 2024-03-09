@@ -1,8 +1,11 @@
-import React, { useState } from 'react'
+import React, { useState,lazy } from 'react'
 import './first.css'
 import { MenuItems } from '../Navbar/MenuItems';
 import { Link } from 'react-router-dom';
-import Navbar from '../Navbar/Navbar';
+
+
+const Navbar = lazy(() => import ('../Navbar/Navbar')) ;
+
 
 const Name = () => {
 

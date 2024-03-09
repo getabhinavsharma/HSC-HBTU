@@ -1,11 +1,17 @@
-import React from 'react';
+import React,{lazy} from 'react';
 import './Team.css';
-import Hover2 from './Hover/Hover2';
 
+
+import Hover2 from './Hover/Hover2';
 import Navbar from '../Navbar/Navbar';
 import Footer2 from '../Footer/Footer2';
-
 import teamMembers from './Assets/all_product';
+
+// const teamMembers = lazy(() => import ('./Assets/all_product')) ;
+// const Footer2= lazy(() => import ('../Footer/Footer2')) ;
+// const  Navbar  = lazy(() => import ('../Navbar/Navbar')) ;
+// const Hover2 = lazy(() => import ('./Hover/Hover2')) ;
+
 
 const Team = () => {
   const renderTeamSection = (teamName, teamMembers) => (

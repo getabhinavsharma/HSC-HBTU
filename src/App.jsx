@@ -1,12 +1,26 @@
-import React, { useState, useEffect } from 'react';
-import Event from "./Components/Events/Event";
-import Footer from "./Components/Footer/Footer";
-import Footer2 from "./Components/Footer/Footer2";
-import First from "./Components/Home/First";
-import Home from "./Components/Home/Home";
-import Name from "./Components/Home/Name";
-import Navbar from "./Components/Navbar/Navbar";
-// import Team from "./Components/Team/Team";
+import React, { useState, useEffect,lazy } from 'react';
+
+
+// import Event from "./Components/Events/Event";
+// import Footer from "./Components/Footer/Footer";
+// import Footer2 from "./Components/Footer/Footer2";
+// import First from "./Components/Home/First";
+// import Home from "./Components/Home/Home";
+// import Name from "./Components/Home/Name";
+// import Navbar from "./Components/Navbar/Navbar";
+
+
+//import Team from "./Components/Team/Team";
+
+
+const Event= lazy(() => import ("./Components/Events/Event")) ;
+const Footer = lazy(() => import ("./Components/Footer/Footer")) ;
+const Footer2= lazy(() => import ("./Components/Footer/Footer2")) ;
+const First = lazy(() => import ("./Components/Home/First")) ;
+const  Home = lazy(() => import ("./Components/Home/Home")) ;
+const  Name = lazy(() => import ("./Components/Home/Name")) ;
+const Navbar = lazy(() => import ("./Components/Navbar/Navbar")) ;
+
 
 function App() {
   const [loading, setLoading] = useState(true);

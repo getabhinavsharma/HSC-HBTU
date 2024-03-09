@@ -1,5 +1,7 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef ,lazy} from 'react';
 import webGLFluidEnhanced from 'webgl-fluid-enhanced';
+
+// const webGLFluidEnhanced = lazy(() => import ('webgl-fluid-enhanced')) ;
 
 const First = () => {
     const canvasRef = useRef(null);
