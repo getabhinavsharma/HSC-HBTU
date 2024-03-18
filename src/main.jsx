@@ -1,11 +1,7 @@
-import React, { Suspense, useState, useEffect, lazy } from 'react';
-import ReactDOM from 'react-dom/client';
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route
-} from "react-router-dom";
-import './index.css'
+import React, { Suspense, useState, useEffect, lazy } from "react"
+import ReactDOM from "react-dom/client"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import "./index.css"
 
 // import AppWithFallback from './App.jsx'
 // import EventWithFallback from './Components/Events/Event.jsx';
@@ -14,15 +10,14 @@ import './index.css'
 // import Navbar from './Components/Navbar/Navbar.jsx';
 // import Footer2 from './Components/Footer/Footer2.jsx';
 
-const Gallary= lazy(() => import ('./Components/throwback/gallary.tsx')) ;
-const AppWithFallback = lazy(() => import ('./App.jsx')) ;
-const EventWithFallback= lazy(() => import ('./Components/Events/Event.jsx')) ;
-const TeamWithFallback= lazy(() => import ('./Components/Team/Team.jsx')) ;
-const Navbar  = lazy(() => import ('./Components/Navbar/Navbar.jsx')) ;
-const Footer2 = lazy(() => import ('./Components/Footer/Footer2.jsx')) ;
+const Gallary = lazy(() => import("./Components/throwback/newgallary.jsx"))
+const AppWithFallback = lazy(() => import("./App.jsx"))
+const EventWithFallback = lazy(() => import("./Components/Events/Event.jsx"))
+const TeamWithFallback = lazy(() => import("./Components/Team/Team.jsx"))
+const Navbar = lazy(() => import("./Components/Navbar/Navbar.jsx"))
+const Footer2 = lazy(() => import("./Components/Footer/Footer2.jsx"))
 
-
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Router>
       <Navbar />
@@ -36,5 +31,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       </Suspense>
       <Footer2 />
     </Router>
-  </React.StrictMode>,
-);
+  </React.StrictMode>
+)

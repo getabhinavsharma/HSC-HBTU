@@ -10,7 +10,7 @@ import React, { useState, useEffect,lazy } from 'react';
 // import Navbar from "./Components/Navbar/Navbar";
 
 
-//import Team from "./Components/Team/Team";
+// import Team from "./Components/Team/Team";
 
 
 const Event= lazy(() => import ("./Components/Events/Event")) ;
