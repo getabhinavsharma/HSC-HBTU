@@ -8,18 +8,18 @@
 
 .DC{
     
-    background-image: linear-gradient(rgba(53, 53, 53, 0.5), rgba(53, 53, 53, 0.5)), url('./Hstore/DC.jpg');
+    background-image: linear-gradient(rgba(53, 53, 53, 0.5), rgba(53, 53, 53, 0.5)), url('./Hstore/DC.webp');
 }
 
 .GRUV{
-    background-image: linear-gradient(rgba(53, 53, 53, 0.5), rgba(53, 53, 53, 0.5)),url('./Hstore/groove.jpg');
+    background-image: linear-gradient(rgba(53, 53, 53, 0.5), rgba(53, 53, 53, 0.5)),url('./Hstore/groove.webp');
 }
 
 .OCTAVE{
-    background-image: linear-gradient(rgba(53, 53, 53, 0.5), rgba(53, 53, 53, 0.5)),url('./Hstore/oct.png');
+    background-image: linear-gradient(rgba(53, 53, 53, 0.5), rgba(53, 53, 53, 0.5)),url('./Hstore/oct.webp');
 }
-.KALAKASH{
-    background-image: linear-gradient(rgba(53, 53, 53, 0.5), rgba(53, 53, 53, 0.5)),url('./Hstore/kala2.jpg');
+.KALAKAKSH{
+    background-image: linear-gradient(rgba(53, 53, 53, 0.5), rgba(53, 53, 53, 0.5)),url('./Hstore/kala2.webp');
     background-position: center;
     object-fit: contain;
 }
