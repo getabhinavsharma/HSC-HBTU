@@ -1,162 +1,113 @@
+import img1 from '../../../public/logo3.png'
+import img2 from '../../../public/logo.jpg'
+import img3 from '../../../public/poster.png'
+import img4 from '../../../public/cricket.jpg'
+import img5 from '../../../public/paint.jpg'
+import img6 from '../../../public/date.jpg'
+import img7 from '../../../public/chess.jpg'
+import img8 from '../../../public/football.jpg'
+import img9 from '../../../public/tattoo.jpeg'
+import img10 from '../../../public/sing.jpg'
+import img11 from '../../../public/squid.jpg'
+import img12 from '../../../public/dance.jpg'
+
+
+
 const list=[
     {
         id:1,
         title:"Bandish",
-        img:"https://p0.pxfuel.com/preview/97/324/881/microphone-music-bokeh-lights-royalty-free-thumbnail.jpg",
+        img:img1,
         desc:"Octave Orientation",
-        msg:"How does a Night, filled with melodious notes and harmony, sound like? Exciting right!We, the members, of HSC invite you all to attend the Raat-e-Khaas ,a Night filled with harmonies and songs, which would mesmerise any ears they fall upon.We are eager for ur presence" 
+        msg:"Let us all be bewitched under the spell of musical notes. We invite you all to attend the OCTAVE Orientation ,an event with harmonies and songs, which would mesmerise any ears they fall upon.We are eager for ur presence" 
         
     },
     {
         id:2,
         title:"Dastak",
-        img:"https://www.discoverhongkong.com/content/dam/dhk/intl/what-s-new/events/events-festivals-720x860.jpg",
+        img:img2,
         desc:"Dramatics Club Orienation",
-        msg:"How does a Night, filled with melodious notes and harmony, sound like? Exciting right!We, the members, of HSC invite you all to attend the Raat-e-Khaas ,a Night filled with harmonies and songs, which would mesmerise any ears they fall upon.We are eager for ur presence" 
+        msg:" From comedy to tragedy, romance to suspense, be prepared to laugh, cry, and everything in between. Join us for an evening of theatrical brilliance and immerse yourself in the DRAMATICS CLUB Orientation. Whether you're a seasoned theater enthusiast or a newcomer to the stage, this program promises an unforgettable experience for all." 
         
     },
     {
         id:3,
         title:"Poster Making",
-        img:"https://www.visionvivaah.com/blog/wp-content/uploads/2019/12/Event-Organisers-For-Dance-Parties-1024x514.jpg",
+        img:img3,
         desc:"A Potray based theme competition",
-        msg:"How does a Night, filled with melodious notes and harmony, sound like? Exciting right!We, the members, of HSC invite you all to attend the Raat-e-Khaas ,a Night filled with harmonies and songs, which would mesmerise any ears they fall upon.We are eager for ur presence" 
+        msg:"Unleash your creativity and artistic flair at our college fest's Poster Making Competition! Express your unique vision and message through vibrant colors, captivating designs, and powerful imagery. Let your imagination run wild !!" 
         
     },
     {
         id:4,
         title:"Gully Cricket",
-        img:"https://p0.pxfuel.com/preview/97/324/881/microphone-music-bokeh-lights-royalty-free-thumbnail.jpg",
-        desc:"A casual and fun game of Cricket",
-        msg:"How does a Night, filled with melodious notes and harmony, sound like? Exciting right!We, the members, of HSC invite you all to attend the Raat-e-Khaas ,a Night filled with harmonies and songs, which would mesmerise any ears they fall upon.We are eager for ur presence" 
+        img:img4,
+        msg:"Get ready for the ultimate showdown of bat and ball at our college fest's Gully Cricket event! Experience the thrill of street cricket as teams compete in fast-paced matches filled with big hits and skillful bowling. Join us in celebrating the spirit of the game and the camaraderie of gully cricket. Don't miss out on the action-packed fun!" 
+        
+    }, 
+    {
+        id:5,
+        title:"Face Painting",
+        img:img5,
+        desc:"Art Event",
+        msg:"Whether you're seeking to channel your favorite character or simply want to add a touch of flair, Face Painting is the perfect way to make a statement and stand out from the crowd. Join us for a day of fun, laughter, and endless artistic possibilities!" 
         
     },
     {
-        id:5,
-        title:"Pitthu",
-        img:"https://aiasf.org/wp-content/uploads/2021/01/Public-Shore-Treasure-Hunt-Flyer-QRLink_web-400x260.jpg",
-        desc:"An indian classic,nostalgia game.",
-        msg:"How does a Night, filled with melodious notes and harmony, sound like? Exciting right!We, the members, of HSC invite you all to attend the Raat-e-Khaas ,a Night filled with harmonies and songs, which would mesmerise any ears they fall upon.We are eager for ur presence" 
-        
-    },   
-    {
         id:6,
-        title:"Face Painting",
-        img:"https://p0.pxfuel.com/preview/97/324/881/microphone-music-bokeh-lights-royalty-free-thumbnail.jpg",
-        desc:"Art Event",
-        msg:"How does a Night, filled with melodious notes and harmony, sound like? Exciting right!We, the members, of HSC invite you all to attend the Raat-e-Khaas ,a Night filled with harmonies and songs, which would mesmerise any ears they fall upon.We are eager for ur presence" 
+        title:"Blind Date",
+        img:img6,
+        desc:"Competitive team game event",
+        msg:"Ready to take a chance on love? Join us for an exhilarating Blind Date experience at our college fest! Step into the unknown as you meet a mystery partner chosen just for you" 
         
     },
     {
         id:7,
-        title:"Murder Mystery",
-        img:"https://aiasf.org/wp-content/uploads/2021/01/Public-Shore-Treasure-Hunt-Flyer-QRLink_web-400x260.jpg",
-        desc:"Criminal case solving event",
-        msg:"How does a Night, filled with melodious notes and harmony, sound like? Exciting right!We, the members, of HSC invite you all to attend the Raat-e-Khaas ,a Night filled with harmonies and songs, which would mesmerise any ears they fall upon.We are eager for ur presence" 
+        title:"Human Chess",
+        img:img7,
+        desc:"Regular chess or is it?",
+        msg:"Prepare for a battle of strategy and wit like no other at our college fest's Human Chess event! Watch as players take on the roles of chess pieces, moving across a life-sized board with calculated precision. Witness the intensity as minds clash and tactics unfold in this thrilling game of intellect and skill." 
         
     },
     {
         id:8,
-        title:"Karaoke",
-        img:"https://www.visionvivaah.com/blog/wp-content/uploads/2019/12/Event-Organisers-For-Dance-Parties-1024x514.jpg",
-        desc:"Singing Competition",
-        msg:"How does a Night, filled with melodious notes and harmony, sound like? Exciting right!We, the members, of HSC invite you all to attend the Raat-e-Khaas ,a Night filled with harmonies and songs, which would mesmerise any ears they fall upon.We are eager for ur presence" 
+        title:"Gully Football",
+        img:img8,
+        desc:"A Casual and Fun game of Football",
+        msg:"Step into the electrifying atmosphere of our college fest and join the adrenaline-fueled action of Gully Football! Experience the raw energy as teams battle it out in intense street football matches, showcasing their skills and teamwork. " 
         
     },
     {
         id:9,
-        title:"Beg Borrow Steal",
-        img:"https://www.visionvivaah.com/blog/wp-content/uploads/2019/12/Event-Organisers-For-Dance-Parties-1024x514.jpg",
-        desc:"Item Search event",
-        msg:"How does a Night, filled with melodious notes and harmony, sound like? Exciting right!We, the members, of HSC invite you all to attend the Raat-e-Khaas ,a Night filled with harmonies and songs, which would mesmerise any ears they fall upon.We are eager for ur presence" 
+        title:"Tattoo Making",
+        img:img9,
+        desc:"An Art Event",
+        msg:"Embrace your inner artist and join the Tattoo Making Competition! Unleash your creativity and skill as you design and ink your masterpiece on the canvas of skin." 
         
     },
     {
         id:10,
-        title:"Blind Date",
-        img:"https://www.visionvivaah.com/blog/wp-content/uploads/2019/12/Event-Organisers-For-Dance-Parties-1024x514.jpg",
-        desc:"Competitive team game event",
-        msg:"How does a Night, filled with melodious notes and harmony, sound like? Exciting right!We, the members, of HSC invite you all to attend the Raat-e-Khaas ,a Night filled with harmonies and songs, which would mesmerise any ears they fall upon.We are eager for ur presence" 
+        title:"Solo Singing",
+        img:img10,
+        desc:"An all out Singing Competition.",
+        msg:"Take center stage and captivate the audience with your vocal prowess and emotional depth. Whether you're belting out a power ballad or serenading with a soulful melody, this is your moment to shine solo" 
         
     },
     {
         id:11,
-        title:"Human Chess",
-        img:"https://www.visionvivaah.com/blog/wp-content/uploads/2019/12/Event-Organisers-For-Dance-Parties-1024x514.jpg",
-        desc:"Regular chess or is it?",
-        msg:"How does a Night, filled with melodious notes and harmony, sound like? Exciting right!We, the members, of HSC invite you all to attend the Raat-e-Khaas ,a Night filled with harmonies and songs, which would mesmerise any ears they fall upon.We are eager for ur presence" 
-        
-    },
-    {
-        id:12,
-        title:"Mismatch",
-        img:"https://www.visionvivaah.com/blog/wp-content/uploads/2019/12/Event-Organisers-For-Dance-Parties-1024x514.jpg",
-        desc:"Inter year Dance Event",
-        msg:"How does a Night, filled with melodious notes and harmony, sound like? Exciting right!We, the members, of HSC invite you all to attend the Raat-e-Khaas ,a Night filled with harmonies and songs, which would mesmerise any ears they fall upon.We are eager for ur presence" 
-        
-    },
-    {
-        id:13,
-        title:"Gully Football",
-        img:"https://www.visionvivaah.com/blog/wp-content/uploads/2019/12/Event-Organisers-For-Dance-Parties-1024x514.jpg",
-        desc:"A Casual and Fun game of Football",
-        msg:"How does a Night, filled with melodious notes and harmony, sound like? Exciting right!We, the members, of HSC invite you all to attend the Raat-e-Khaas ,a Night filled with harmonies and songs, which would mesmerise any ears they fall upon.We are eager for ur presence" 
-        
-    },
-    {
-        id:14,
-        title:"Balloon Balance",
-        img:"https://www.visionvivaah.com/blog/wp-content/uploads/2019/12/Event-Organisers-For-Dance-Parties-1024x514.jpg",
-        desc:"A fun Race event",
-        msg:"How does a Night, filled with melodious notes and harmony, sound like? Exciting right!We, the members, of HSC invite you all to attend the Raat-e-Khaas ,a Night filled with harmonies and songs, which would mesmerise any ears they fall upon.We are eager for ur presence" 
-        
-    },
-    {
-        id:15,
-        title:"Tattoo Making",
-        img:"https://www.visionvivaah.com/blog/wp-content/uploads/2019/12/Event-Organisers-For-Dance-Parties-1024x514.jpg",
-        desc:"An Art Event",
-        msg:"How does a Night, filled with melodious notes and harmony, sound like? Exciting right!We, the members, of HSC invite you all to attend the Raat-e-Khaas ,a Night filled with harmonies and songs, which would mesmerise any ears they fall upon.We are eager for ur presence" 
-        
-    },
-    {
-        id:16,
-        title:"Where am i ?",
-        img:"https://www.visionvivaah.com/blog/wp-content/uploads/2019/12/Event-Organisers-For-Dance-Parties-1024x514.jpg",
-        desc:"A Seeking game with Blindfolds",
-        msg:"How does a Night, filled with melodious notes and harmony, sound like? Exciting right!We, the members, of HSC invite you all to attend the Raat-e-Khaas ,a Night filled with harmonies and songs, which would mesmerise any ears they fall upon.We are eager for ur presence" 
-        
-    },
-    {
-        id:17,
-        title:"Solo Singing",
-        img:"https://www.visionvivaah.com/blog/wp-content/uploads/2019/12/Event-Organisers-For-Dance-Parties-1024x514.jpg",
-        desc:"An all out Singing Competition.",
-        msg:"How does a Night, filled with melodious notes and harmony, sound like? Exciting right!We, the members, of HSC invite you all to attend the Raat-e-Khaas ,a Night filled with harmonies and songs, which would mesmerise any ears they fall upon.We are eager for ur presence" 
-        
-    },
-    {
-        id:18,
         title:"Squid Games",
-        img:"https://www.visionvivaah.com/blog/wp-content/uploads/2019/12/Event-Organisers-For-Dance-Parties-1024x514.jpg",
+        img:img11,
         desc:"It was a great Series right?",
-        msg:"How does a Night, filled with melodious notes and harmony, sound like? Exciting right!We, the members, of HSC invite you all to attend the Raat-e-Khaas ,a Night filled with harmonies and songs, which would mesmerise any ears they fall upon.We are eager for ur presence" 
+        msg:"Prepare for the ultimate test of skill and survival in real-life alike Squid Games ! Join us for heart-pounding challenges, intense competitions, and thrilling surprises. Are you brave enough to compete and emerge as the ultimate champion?" 
         
     }
-    , {
-        id:19,
-        title:"Flash Mob",
-        img:"https://www.visionvivaah.com/blog/wp-content/uploads/2019/12/Event-Organisers-For-Dance-Parties-1024x514.jpg",
-        desc:"A dance event with everyone participating.",
-        msg:"How does a Night, filled with melodious notes and harmony, sound like? Exciting right!We, the members, of HSC invite you all to attend the Raat-e-Khaas ,a Night filled with harmonies and songs, which would mesmerise any ears they fall upon.We are eager for ur presence" 
-        
-    },
+    , 
     {
-        id:20,
+        id:12,
         title:"Dance Battle",
-        img:"https://www.visionvivaah.com/blog/wp-content/uploads/2019/12/Event-Organisers-For-Dance-Parties-1024x514.jpg",
+        img:img12,
         desc:"A Competitive Dance event",
-        msg:"How does a Night, filled with melodious notes and harmony, sound like? Exciting right!We, the members, of HSC invite you all to attend the Raat-e-Khaas ,a Night filled with harmonies and songs, which would mesmerise any ears they fall upon.We are eager for ur presence" 
+        msg:"Get ready to set the stage on fire at the Dance Battle! Show off your best moves and compete in an electrifying showdown of rhythm and creativity.Join us for an adrenaline-fueled night of high-energy performances and jaw-dropping routines. " 
         
     }
 ];

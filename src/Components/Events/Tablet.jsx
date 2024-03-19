@@ -14,8 +14,8 @@ export default function Tablet(props){
                 <div className=" rounded-r-lg p-5 grid grid-rows-3 grid-rows-[1fr,3fr,1fr] bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group:hover-to-black/70">
                     <h1 className="text-5xl font-bold font-anta underline underline-offset-8">{props.title}</h1>
                     <div>
-                    <h3 className="mx-5 font-bold font-anta">Date of Event :</h3>
-                    <h3 className="m-5 font-bold font-anta">Venue : </h3>
+                    <h3 className="mx-5 font-bold font-anta">Date of Event : Coming Soon....</h3>
+                    <h3 className="m-5 font-bold font-anta">Venue : Coming soon....</h3>
                     <p className="text-lg italic mb-3 font-anta">{props.description}</p>
                     </div>
                      <div>
