@@ -7,7 +7,7 @@ import photos from "./collection.js" // Importing the array of photo objects
 const Gallery = () => {
   return (
     <div
-      className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 bg-blue-200 rounded-lg"
+      className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 bg-sky-950 rounded-lg"
       style={{ padding: "3rem", paddingBottom: "1rem", paddingTop: "5rem" }}
     >
       {photos.map((photo) => (
