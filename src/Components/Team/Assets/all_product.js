@@ -15,10 +15,8 @@ const teamMembers = {
     { id: 7, name: 'Akshat Gupta', roll: '3rd ME' },
     { id: 8, name: 'Amber Gupta', roll: '3rd CHE' },
   ],
-  "Social Media Management": [
-    { id: 9, name: 'Anshu Dwivedi', roll: '3rd ET' },
-    { id: 10, name: 'Chandrika Singh', roll: '3rd BE' },
-  ],
+
+
   Publicity: [
     { id: 11, name: 'Shruti Nigam', roll: '3rd PT' },
     { id: 12, name: 'Ritik', roll: '3rd PT' },
