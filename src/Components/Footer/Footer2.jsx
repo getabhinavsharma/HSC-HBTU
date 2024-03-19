@@ -17,7 +17,7 @@ const Footer2 = () => {
             <div className='ml-auto flex gap-5'>
                 <IoCall className='text-2xl md:text-3xl text-[#ddbea8] hover:scale-110 transition-all cursor-pointer' />
                 <FaInstagram onClick={handleInstaClick} className='text-2xl md:text-3xl text-[#ddbea8] hover:scale-110 transition-all cursor-pointer' />
-{/*                 <FaLinkedin className='text-2xl md:text-3xl text-[#ddbea8] hover:scale-110 transition-all cursor-pointer' /> */}
+                <FaLinkedin className='text-2xl md:text-3xl text-[#ddbea8] hover:scale-110 transition-all cursor-pointer' />
                 <IoMail className='text-2xl md:text-3xl text-[#ddbea8] hover:scale-110 transition-all cursor-pointer' />
             </div>
         </div>
