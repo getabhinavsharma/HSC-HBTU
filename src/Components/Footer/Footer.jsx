@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className='h-[90vh] flex flex-col items-center md:items-start md:flex-row w-[80%] ml-auto mr-auto'>
         <div className='w-[70%] md:w-[48%] h-52 md:h-[70%] md:mt-auto md:mb-auto mt-4 rounded-[40px] md:rounded-[70px] overflow-hidden border-2 border-[#ddbea8] bg-red-600'>
-            <img src="https://plus.unsplash.com/premium_photo-1684923604860-64e661f2ff72?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className='w-full h-full object-cover' alt="" />
+            <img src="/book.jpg" className='w-full h-full object-cover' alt="" />
         </div>
         <div className='md:ml-20 text-center md:text-left w-full md:w-[40%]'>
             <div className='mt-10 md:mt-20'>
