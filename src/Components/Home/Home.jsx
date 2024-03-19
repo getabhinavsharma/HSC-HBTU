@@ -103,7 +103,7 @@ export default Home;
 
 const data = [
     {
-        head: "DC",
+        head: "Dramatics Club",
         desc: 'The Dramatics Club at Harcourt Butler Technical University is a dynamic hub for aspiring actors and theater enthusiasts. This vibrant community offers a platform for students to explore acting, directing, and various aspects of theater production. The events conducted by the club include Nukkad Natak, Dramatic Night, mimes, acts and much more! A stage for a creative space where passion meets the stage, and together, we bring stories to life.',
         pic: "/logo.jpg",
         bg: './DC.jpg',
