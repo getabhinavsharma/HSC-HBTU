@@ -3,10 +3,10 @@ const teamMembers = {
   //   { id: 11, name: "Shruti Nigam", roll: "3rd PT" },
   //   { id: 12, name: "Ritik", roll: "3rd PT" },
   // ],
-  // Events: [
-  //   { id: 13, name: "Shalini Pal", roll: "3rd BE" },
-  //   { id: 14, name: "Haza Rahman", roll: "3rd CHE" },
-  // ],
+  Events: [
+    { id: 13, name: "Shalini Pal", roll: "3rd BE" },
+    { id: 14, name: "Haza Rahman", roll: "3rd CHE" },
+  ],
   // Content: [
   //   { id: 15, name: "Anant Pandey", roll: "3rd FT" },
   //   { id: 16, name: "Akanksha Verma", roll: "3rd ET" },
