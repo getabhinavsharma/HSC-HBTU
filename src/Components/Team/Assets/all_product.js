@@ -169,13 +169,13 @@ const teamMembers = {
       instagram: "",
       linkedin: "",
     },
-    {
-      id: 2,
-      name: "Govind Kumar",
-      roll: "2nd CSE",
-      instagram: "",
-      linkedin: "",
-    },
+    // {
+    //   id: 2,
+    //   name: "Govind Kumar",
+    //   roll: "2nd CSE",
+    //   instagram: "",
+    //   linkedin: "",
+    // },
     {
       id: 3,
       name: "Sukrit Prakash",
@@ -195,13 +195,13 @@ const teamMembers = {
       linkedin:
         "https://www.linkedin.com/in/sumit-singh-developer?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
-    {
-      id: 5,
-      name: "Harsh Chaturvedi",
-      roll: "2nd ME",
-      instagram: "",
-      linkedin: "",
-    },
+    // {
+    //   id: 5,
+    //   name: "Harsh Chaturvedi",
+    //   roll: "2nd ME",
+    //   instagram: "",
+    //   linkedin: "",
+    // },
   ],
 }
 
