@@ -53,7 +53,7 @@ const Home = () => {
             data-aos="flip-right"
             data-aos-duration="1000"
           >
-            {(item.head === 'DC' ? 'Dramatic Club' : item.head)}
+            {item.head === "DC" ? "Dramatic Club" : item.head}
           </h1>
           <div className="flex flex-col md:flex-row px-4 md:px-16 gap-4 h-[100vh] md:h-[70vh] mt-10 md:mt-20 relative z-10">
             {isDesktopOrLaptop ? (
@@ -81,7 +81,12 @@ const Home = () => {
                         onClick={() => handleInstaClickGruv(item.insta)}
                       />
                       {/* <GrInstagram className="cursor-pointer text-[#ddbea8] hover:scale-[1.05]" /> */}
-                      <IoCall className="cursor-pointer text-[#ddbea8] hover:scale-[1.05]" />
+                      <IoCall
+                        className="cursor-pointer text-[#ddbea8] hover:scale-[1.05]"
+                        onClick={() => {
+                          alert("Contact no. : +91 8192972385")
+                        }}
+                      />
                     </div>
                   </div>
                 </>
@@ -102,7 +107,12 @@ const Home = () => {
                         onClick={() => handleInstaClickGruv(item.insta)}
                       />
                       {/* <GrInstagram className="cursor-pointer text-[#ddbea8] hover:scale-[1.05]" /> */}
-                      <IoCall className="cursor-pointer text-[#ddbea8] hover:scale-[1.05]" />
+                      <IoCall
+                        className="cursor-pointer text-[#ddbea8] hover:scale-[1.05]"
+                        onClick={() => {
+                          alert("Contact no. : +91 8192972385")
+                        }}
+                      />
                     </div>
                   </div>
                   <div className="w-[90%] h-64 md:w-1/3 md:h-[85%] md:mt-auto md:mb-auto ml-auto mr-auto md:ml-0 md:mr-0 rounded-full overflow-hidden border-2 border-[#ddbea8]">

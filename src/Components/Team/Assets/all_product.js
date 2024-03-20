@@ -28,7 +28,7 @@ const teamMembers = {
     {
       id: 1,
       name: "Ayushi Rao",
-      roll: "Final B.Tech CHE",
+      roll: "3rd CHE",
       img: secretary,
       instagram: "https://www.instagram.com/_ayuushii_?igsh=ZXM1ZHpuMTh4M2pz",
       linkedin:
@@ -39,7 +39,7 @@ const teamMembers = {
     {
       id: 1,
       name: "Devvrat Singh Rajput",
-      roll: "3rd EE",
+      roll: "3rd CHE",
       img: dev,
       instagram:
         "https://www.instagram.com/rajput__devvrat?igsh=eDg3dm5yZm9xcXU2",
@@ -49,7 +49,7 @@ const teamMembers = {
     {
       id: 2,
       name: "Yatendra Yadav",
-      roll: "3rd EE",
+      roll: "3rd CHE",
       instagram:
         "https://www.instagram.com/yatendra_yadav05?igsh=MXh3dnl0Z3o5enU0cA==",
       linkedin:
@@ -116,7 +116,7 @@ const teamMembers = {
     {
       id: 3,
       name: "Anand Tiwari",
-      roll: "3rd EE",
+      roll: "3rd ET",
       img: anand,
       instagram:
         "https://www.instagram.com/anand_tiwar_i?igsh=MWhpcjZnM3k2cXpwdg==",
@@ -126,7 +126,7 @@ const teamMembers = {
     {
       id: 4,
       name: "Nishant Kardam",
-      roll: "3rd EE",
+      roll: "3rd ET",
       img: nish,
       instagram:
         "https://www.instagram.com/_.nishant.kardam?igsh=Ynk2MHJ2ajFkcTF0",
@@ -146,7 +146,7 @@ const teamMembers = {
     {
       id: 1,
       name: "Hritik Gupta",
-      roll: "3rd CHE (poster)",
+      roll: "3rd CHE",
       img: hrit,
       instagram: "https://www.instagram.com/i_s_hiii?igsh=MWlwOGRsOGwyZWg4Mg==",
       linkedin: "https://www.linkedin.com/in/hritik-gupta-836805229",
@@ -154,7 +154,7 @@ const teamMembers = {
     {
       id: 2,
       name: "Isha Singh",
-      roll: "3rd CHE (Poster)",
+      roll: "3rd CHE",
       img: isha,
       instagram: "https://www.instagram.com/_aashina?igsh=MTZjc2p4ajdsdHNu",
       linkedin: "https://www.linkedin.com/in/isha-singh-35aab41b3",
