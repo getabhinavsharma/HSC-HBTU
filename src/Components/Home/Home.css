@@ -27,6 +27,7 @@
 @media screen and (min-width: 350px) {
     .para {
         font-size: 1.20rem;
+        font-weight: 600;
 
     }   
 
@@ -44,6 +45,7 @@
 @media screen and (min-width: 400px) {
     .para {
         font-size: 1.55rem;
+        font-weight: 600;
     }    
 
     .cont{

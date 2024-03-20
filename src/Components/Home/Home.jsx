@@ -53,7 +53,7 @@ const Home = () => {
             data-aos="flip-right"
             data-aos-duration="1000"
           >
-            {item.head}
+            {(item.head === 'DC' ? 'Dramatic Club' : item.head)}
           </h1>
           <div className="flex flex-col md:flex-row px-4 md:px-16 gap-4 h-[100vh] md:h-[70vh] mt-10 md:mt-20 relative z-10">
             {isDesktopOrLaptop ? (
@@ -68,7 +68,7 @@ const Home = () => {
                   </div>
                   <div className="relative w-[95%] md:w-2/3">
                     <p
-                      className="h-1/2 pt-2 md:pt-20 px-6  text-[#ddbea8] md:text-3xl text-center"
+                      className="h-1/2 md:pt-20 px-6  text-[#ddbea8] text-3xl font-bold text-center"
                       data-aos="fade-up-left"
                     >
                       {item.desc}
@@ -89,7 +89,7 @@ const Home = () => {
                 <>
                   <div className="relative w-[95%] md:w-2/3">
                     <p
-                      className="h-1/2 pt-2 md:pt-20 px-6 text-[#ddbea8] md:text-3xl text-center"
+                      className="h-1/2 pt-20 px-6 text-[#ddbea8] text-3xl font-bold text-center"
                       data-aos="fade-up-right"
                     >
                       {item.desc}
@@ -125,7 +125,7 @@ const Home = () => {
                 </div>
                 <div className="relative w-[95%] md:w-2/3">
                   <p
-                    className="para h-1/2 pt-2 md:pt-20 px-6 text-[#ddbea8] md:text-3xl text-center"
+                    className="para h-1/2 pt-2 text-center w-full text-[#ddbea8] text-3xl leading-tight"
                     data-aos="fade-up"
                   >
                     {item.desc}
@@ -155,7 +155,7 @@ export default Home
 const data = [
   {
     head: "DC",
-    desc: "The Dramatics Club at Harcourt Butler Technical University is a dynamic hub for aspiring actors and theater enthusiasts. This vibrant community offers a platform for students to explore acting, directing, and various aspects of theater production. The events conducted by the club include Nukkad Natak, Dramatic Night, mimes, acts and much more! A stage for a creative space where passion meets the stage, and together, we bring stories to life.",
+    desc: "The Dramatics Club at HBTU is a dynamic hub for aspiring actors and theater enthusiasts. This vibrant community offers a platform for students to explore acting, directing, and various aspects of theater production. The events conducted by the club include Nukkad Natak, Dramatic Night, mimes, acts and much more! A stage for a creative space where passion meets the stage, and together, we bring stories to life.",
     pic: "/logo.jpg",
     bg: "./DC.jpg",
 
