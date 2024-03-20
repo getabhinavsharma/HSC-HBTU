@@ -6,6 +6,7 @@ import Hover2 from './Hover/Hover2';
 import Navbar from '../Navbar/Navbar';
 import Footer2 from '../Footer/Footer2';
 import teamMembers from './Assets/all_product';
+import Hover from './Hover/Hover2';
 
 // const teamMembers = lazy(() => import ('./Assets/all_product')) ;
 // const Footer2= lazy(() => import ('../Footer/Footer2')) ;
@@ -20,7 +21,7 @@ const Team = () => {
       <div className="card-container">
         {teamMembers.map((item) => (
           <div key={item.id} className="card-wrapper">
-            <Hover2 id={item.id} name={item.name} role={item.roll} />
+            <Hover2 instagram={item.instagram} linkedin={item.linkedin} img={item.img} id={item.id} name={item.name} role={item.roll} />
           </div>
         ))}
       </div>
@@ -29,7 +30,7 @@ const Team = () => {
 
   return (
     <>
-      <div className='team-container'>
+    <div className='team-container'>
         <h1>Meet Our Teams</h1>
         {Object.entries(teamMembers).map(([teamName, members]) => 
           renderTeamSection(teamName, members)
