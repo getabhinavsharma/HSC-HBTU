@@ -21,7 +21,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Router>
       <Navbar />
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<div className="w-full h-screen bg-black text-white font-serif font-bold tracking-wide text-3xl flex items-center justify-center">Loading...</div>}>
         <Routes>
           <Route path="/" element={<AppWithFallback />} />
           <Route path="/Events" element={<EventWithFallback />} />
