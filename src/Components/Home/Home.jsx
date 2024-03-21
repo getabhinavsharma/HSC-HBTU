@@ -148,7 +148,9 @@ const Home = () => {
                       onClick={() => handleInstaClickGruv(item.insta)}
                     />
                     {/* <GrInstagram className="cursor-pointer text-[#ddbea8] hover:scale-[1.05]" /> */}
-                    <IoCall className="cursor-pointer text-[#ddbea8] hover:scale-[1.05]" />
+                    <IoCall className="cursor-pointer text-[#ddbea8] hover:scale-[1.05]" onClick={() => {
+                          alert("Contact no. : +91 8192972385")
+                        }} />
                   </div>
                 </div>
               </>
