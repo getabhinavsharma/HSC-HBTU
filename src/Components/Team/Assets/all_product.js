@@ -12,6 +12,7 @@ import dev from "./photo/dev.jpeg"
 import hrit from "./photo/hritik.jpeg"
 import isha from "./photo/isha.jpeg"
 import sumit from "./photo/sumit.jpeg"
+import govind from "./photo/govind.jpg"
 
 const teamMembers = {
   Convener: [
@@ -169,13 +170,14 @@ const teamMembers = {
       instagram: "",
       linkedin: "",
     },
-    // {
-    //   id: 2,
-    //   name: "Govind Kumar",
-    //   roll: "2nd CSE",
-    //   instagram: "",
-    //   linkedin: "",
-    // },
+    {
+      id: 2,
+      name: "Govind Kumar",
+      roll: "2nd CSE",
+      img:govind,
+      instagram: "",
+      linkedin: "",
+    },
     {
       id: 3,
       name: "Sukrit Prakash",
