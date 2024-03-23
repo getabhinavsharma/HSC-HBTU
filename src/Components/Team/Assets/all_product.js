@@ -13,6 +13,7 @@ import hrit from "./photo/hritik.jpeg"
 import isha from "./photo/isha.jpeg"
 import sumit from "./photo/sumit.jpeg"
 import govind from "./photo/govind.jpg"
+import harshC from "./photo/harsh2.jpg"
 
 const teamMembers = {
   Convener: [
@@ -197,13 +198,14 @@ const teamMembers = {
       linkedin:
         "https://www.linkedin.com/in/sumit-singh-developer?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
-    // {
-    //   id: 5,
-    //   name: "Harsh Chaturvedi",
-    //   roll: "2nd ME",
-    //   instagram: "",
-    //   linkedin: "",
-    // },
+    {
+      id: 5,
+      name: "Harsh Chaturvedi",
+      roll: "2nd ME",
+      img: harshC,
+      instagram: "",
+      linkedin: "",
+    },
   ],
 }
 
