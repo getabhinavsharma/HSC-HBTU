@@ -29,7 +29,7 @@ const teamMembers = {
   Secretary: [
     {
       id: 1,
-      name: "Ayushi Rao",
+      name: "Aayushi Rao",
       roll: "3rd BE",
       img: secretary,
       instagram: "https://www.instagram.com/_ayuushii_?igsh=ZXM1ZHpuMTh4M2pz",
