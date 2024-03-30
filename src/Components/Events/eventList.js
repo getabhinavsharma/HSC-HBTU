@@ -20,20 +20,20 @@ const list = [
     msg: "Let us all be bewitched under the spell of musical notes. We invite you all to attend the OCTAVE Orientation ,an event with harmonies and songs, which would mesmerise any ears they fall upon.We are eager for ur presence",
   },
   {
-    id: 3,
+    id: 2,
     title: "Poster Making",
     img: img3,
     desc: "A Potray based theme competition",
     msg: "Unleash your creativity and artistic flair at our college fest's Poster Making Competition! Express your unique vision and message through vibrant colors, captivating designs, and powerful imagery. Let your imagination run wild !!",
   },
   {
-    id: 4,
+    id: 3,
     title: "Gully Cricket",
     img: img4,
     msg: "Get ready for the ultimate showdown of bat and ball at our college fest's Gully Cricket event! Experience the thrill of street cricket as teams compete in fast-paced matches filled with big hits and skillful bowling. Join us in celebrating the spirit of the game and the camaraderie of gully cricket. Don't miss out on the action-packed fun!",
   },
   {
-    id: 5,
+    id: 4,
     title: "Face Painting",
     img: img5,
     desc: "Art Event",
@@ -41,21 +41,21 @@ const list = [
   },
 
   {
-    id: 6,
+    id: 5,
     title: "Blind Date",
     img: img6,
     // desc: "Competitive team game event",
     msg: "Ready to take a chance on love? Join us for an exhilarating Blind Date experience at our college fest! Step into the unknown as you meet a mystery partner chosen just for you",
   },
   {
-    id: 7,
+    id: 6,
     title: "Human Chess",
     img: img7,
     desc: "Regular chess? NO!!",
     msg: "Prepare for a battle of strategy and wit like no other at our college fest's Human Chess event! Watch as players take on the roles of chess pieces, moving across a life-sized board with calculated precision. Witness the intensity as minds clash and tactics unfold in this thrilling game of intellect and skill.",
   },
   {
-    id: 2,
+    id: 7,
     title: "Dastak",
     img: img2,
     desc: "Dramatics Club Orienation",
