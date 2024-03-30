@@ -95,7 +95,7 @@ const list = [
     title: "Dance Battle",
     img: img12,
     desc: "A Competitive Dance event",
-    msg: "Get ready to set the stage on fire at the Dance Battle! Show off your best moves and compete in an electrifying showdown of rhythm and creativity.Join us for an adrenaline-fueled night of high-energy performances and jaw-dropping routines. ",
+    msg: "Get ready to set the stage on fire at the Dance Battle! Show off your best moves and compete in an electrifying showdown of rhythm and creativity.Join us for an adrenaline-fueled night of high-energy performances and jaw-dropping routines.",
   },
 ]
 
